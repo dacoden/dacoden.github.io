@@ -42,19 +42,23 @@
 <body>
 
   <header>
-    <h1></h1>
+    <h1>My page</h1>
     <p>Love Coding</p>
   </header>
 
   <main>
-    <h2>About me</h2>
-    <p>My name is Dimitrios Arvanitakis. I am a Computer Science Student at National & Kapodistrian University of Athens.</p>
+    <section>
+      <h2 id="about">About Me</h2>
+      <p>My name is Dimitrios Arvanitakis. I am a Computer Science Student at National & Kapodistrian University of Athens.</p>
+    </section>
 
-    <h2>Links</h2>
+    <section>
+      <h2>Links</h2>
     <ul>
       <li><a href="https://github.com/dacoden" target="_blank">My Github profile</a></li>
       <li><a href="mailto:dhmarvan@gmail.com">Email</a></li>
     </ul>
+    </section>
   </main>
 
   <footer>
