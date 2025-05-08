@@ -1,10 +1,8 @@
-# dacoden.github.io
-<!DOCTYPE html>
 <html lang="el">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Η Σελίδα μου στο GitHub</title>
+  <title>Welcome to my page</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -54,8 +52,8 @@
 
     <h2>Σύνδεσμοι</h2>
     <ul>
-      <li><a href="https://github.com/ΤοUsernameΣου" target="_blank">Το προφίλ μου στο GitHub</a></li>
-      <li><a href="mailto:example@example.com">Επικοινωνία με email</a></li>
+      <li><a href="https://github.com/dacoden" target="_blank">My Github profile</a></li>
+      <li><a href="mailto:dhmarvan@gmail.com">Email</a></li>
     </ul>
   </main>
 
