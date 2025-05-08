@@ -1,4 +1,4 @@
-<html lang="el">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,15 +42,15 @@
 <body>
 
   <header>
-    <h1>Καλώς ήρθες στη σελίδα μου!</h1>
-    <p>Φτιαγμένη με αγάπη στο GitHub Pages</p>
+    <h1></h1>
+    <p>Love Coding</p>
   </header>
 
   <main>
-    <h2>Λίγα λόγια για εμένα</h2>
-    <p>My name is Dimitrios Arvanitakis.</p>
+    <h2>About me</h2>
+    <p>My name is Dimitrios Arvanitakis. I am a Computer Science Student at National & Kapodistrian University of Athens.</p>
 
-    <h2>Σύνδεσμοι</h2>
+    <h2>Links</h2>
     <ul>
       <li><a href="https://github.com/dacoden" target="_blank">My Github profile</a></li>
       <li><a href="mailto:dhmarvan@gmail.com">Email</a></li>
@@ -58,7 +58,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 Dimitris Arvanitakis</p>
+    <p>&copy; 2025 Dimitrios Arvanitakis</p>
   </footer>
 
 </body>
