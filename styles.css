@@ -34,7 +34,8 @@ footer {
 }
 
 a {
-  text-decoration: none;
+    color: black;
+    transition: color 0.25s ease-in;
 }
 
 li a {
@@ -57,5 +58,6 @@ li a:hover {
 }
 
 a:hover {
-  text-decoration: underline;
+    color: #007BFF;
+    text-decoration: none;
 }
