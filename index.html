@@ -1,9 +1,11 @@
-<!DOCTYPE html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to my page</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
@@ -15,6 +17,7 @@
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#links">Links</a></li>
+                <li><a href="#education">Education</a></li>
             </ul>
         </nav>
     </header>
@@ -22,48 +25,51 @@
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <p>My name is Dimitris Arvanitakis. I am a Computer Science Student at National & Kapodistrian University
-                of Athens.</p>
+            <p>My name is Dimitris Arvanitakis. I am a Computer Science Student at National & Kapodistrian University of Athens.</p>
         </section>
+
         <section id="projects">
             <h2>My Projects</h2>
             <ul>
-                <a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/factor" target="_blank">
-                    <p>Factor</p>  
-                </a>
-                <p>This project finds the two prime factors of a semiprime number.</p>
-                <a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/gcd" target="_blank">
-                    <p>Greatest Common Divisor</p>  
-                </a>
-                <p>This project is about the greatest common divisor between two numbers.
-                     The greatest common divisor will be calculated with the Euclidean algorithm.</p>
-                <a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/rsa" target="_blank">
-                    <p>Rivest-Shamir-Adleman (RSA)</p>  
-                </a>
-                <p>This project encrypts and decrypts a message, using rsa method.</p>
-                <a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/future" target="_blank">
-                    <p>Future</p>  
-                </a>
-                <p>This project predicts what the next number in a sequence could be using and the Simple 
-                    Moving Average (SMA) method.</p>
-                <a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/jabbamaps" target="_blank">
-                    <p>Jabbamaps</p>
-                </a>
-                <p>This project calculates the fastest course, in order to go through all the towns from 
-                    a file.</p>
-                <a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/jason" target="_blank">
-                    <p>Jason</p>
-                </a>
-                <p>This project handles json files and prints the content as also as it does ai chat bot 
-                    conversation.</p>
+                <li><a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/factor" target="_blank">Factor</a>: This project finds the two prime factors of a semiprime number.</li>
+                <li><a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/gcd" target="_blank">Greatest Common Divisor</a>: Calculates the GCD using the Euclidean algorithm.</li>
+                <li><a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/rsa" target="_blank">Rivest-Shamir-Adleman (RSA)</a>: Encrypts and decrypts messages using RSA.</li>
+                <li><a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/future" target="_blank">Future</a>: Predicts the next number in a sequence using SMA.</li>
+                <li><a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/jabbamaps" target="_blank">Jabbamaps</a>: Calculates the fastest course through towns from a file.</li>
+                <li><a href="https://github.com/dacoden/dacoden.github.io/tree/main/projects/jason" target="_blank">Jason</a>: Handles JSON files and simulates an AI chatbot conversation.</li>
             </ul>
         </section>
-        <section id="links">
-            <h2>Links</h2>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>National & Kapodistrian University of Athens</p>
+            <p>Department of Informatics and Telecommunications</p>
+            <p>
+                The Department at NKUA is a leading academic and research unit in computer science,
+                telecommunications, and IT. It offers a curriculum covering AI, software engineering,
+                cybersecurity, and networks, and is involved in international research collaborations.
+            </p>
+            <p>SEP 2024 - TILL NOW</p>
+            <p>My GPA is 9.42/10.0</p>
+            <p>Courses :</p>
             <ul>
-                <li><a href="https://github.com/dacoden" target="_blank">My Github profile</a></li>
-                <li><a href="mailto:dhmarvan@gmail.com">Email</a></li>
+                <li><a href="https://www.di.uoa.gr/studies/undergraduate/courses/k01" target="_blank">Analysis I</a></li>
+                <li><a href="https://www.di.uoa.gr/studies/undergraduate/courses/k14" target="_blank">Computer Architecture I</a></li>
+                <li><a href="https://www.di.uoa.gr/studies/undergraduate/courses/k08" target="_blank">Data Structures and Programming Techniques</a></li>
+                <li><a href="https://www.di.uoa.gr/studies/undergraduate/courses/k12" target="_blank">Electromagnetism - Optics and Modern Physics</a></li>
             </ul>
+        </section>
+
+        <section id="links" class="links">
+            <a href="https://github.com/dacoden" target="_blank">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="icon-img">
+            </a>
+            <a href="https://www.linkedin.com/in/dimitris-arvanitakis-160664365" target="_blank">
+                <img src="images/InBug-Black.png" alt="LinkedIn" class="icon-img">
+            </a>
+            <a href="mailto:dhmarvan@gmail.com" class="email-button">
+                <i class="fas fa-envelope"></i> Contact Me
+            </a>
         </section>
     </main>
 
@@ -72,5 +78,4 @@
     </footer>
 
 </body>
-
 </html>
