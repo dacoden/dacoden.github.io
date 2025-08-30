@@ -142,14 +142,6 @@ section h2 {
   line-height: 1.6;
 }
 
-#education .gpa {
-  font-weight: bold;
-  color: #555;
-  text-align: right;
-  font-size: 15px;
-  margin-top: -10px;
-}
-
 #education ul {
   padding-left: 20px;
   margin-bottom: 15px;
